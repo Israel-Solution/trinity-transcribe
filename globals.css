@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #0A1030; color: #fff; }
+@keyframes wave { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+.bar { animation: wave 1.2s ease-in-out infinite; transform-origin: center; }
